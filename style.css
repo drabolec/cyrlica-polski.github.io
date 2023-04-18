@@ -1,0 +1,74 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #070606;
+    
+}
+body{
+    background-color: #FFFDFA;
+}
+.container{
+    padding: 10px 10px;
+    width: 100vw;
+    min-height: 100vh;
+}
+.container .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 30px;
+    
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h2{
+    padding-top:20px;
+    font-size: 20px;
+}
+.content h3{
+    font-size: 15px;
+}
+#transkrypcja {
+    margin-top: 20px;
+    max-width: 300px;
+
+}
+textarea{
+    background-color: #FFFDFA;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+}
+button{
+    margin-top:30px;
+    font-size: 20px;
+    padding: 5px 10px; 
+    background-color: #FFFDFA;
+    border: none;
+    border-radius: 3px;
+    
+    transition: 0.5s;
+}
+button:hover{
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+
+
+@media (max-width: 1000px) {
+    .header h1{
+        font-size: 30px;
+    }
+}
